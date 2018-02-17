@@ -6,8 +6,8 @@ theme = "minimal"
 [params]
     author = "Drew Teeter"
     description = "Random ramblings of a programmer, consultant, cycling enthusiast."
-    githubUsername = "#ddteeter"
-    accent = "rgba(225, 102, 0, 0.5)"
+    githubUsername = "ddteeter"
+    accent = "#ff6600"
     showBorder = true
     backgroundColor = "white"
     font = "Source Code Pro" # should match the name on Google Fonts!
