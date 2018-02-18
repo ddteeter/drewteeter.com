@@ -22,7 +22,7 @@ Given this predicament, I had a thought the other day... What if my alarm and my
 It's summarized above, but here is the general idea:
 
 1. Before going to bed at night, you plug in your phone and open up the companion app.
-2. You crawl on bed, strap on your activity tracker (if it wasn't already on) and open up the app on tracker (obviously this will be limited to devices that support customs apps).
+2. You crawl in bed, strap on your activity tracker (if it wasn't already on) and open up the app on tracker (obviously this will be limited to devices that support customs apps).
 3. You set the alarm time on your tracker app, which sends it over to the companion app (as a backup). If you don't have the companion app open, you'll get a nice reminder to open it up!
 4. You drift off to sleep.
 5. Five AM rolls around and your companion app tells the tracker it's time to wake up! Go go vibrations!
