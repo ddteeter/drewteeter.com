@@ -17,7 +17,7 @@ Phone apps have started to fill the gap for those of us whose bodies outsmart ou
 
 Given this predicament, I had a thought the other day... What if my alarm and my activity tracker worked together? My activity tracker, serving as the little vibrating reminder to get myself in gear, with a corresponding app on my phone forcing me to do something to turn off the alarm on the activity tracker. This seems like the best of everything! My partner will continue to be none the wiser, with all alarms being silent, but no simple way to disable the alarm from my activity tracker -- take that half asleep body!
 
-##Concept##
+## Concept ##
 
 It's summarized above, but here is the general idea:
 
@@ -30,15 +30,23 @@ It's summarized above, but here is the general idea:
 7. The tracker stop vibrating. You close the tracker app and the companion app.
 8. Congratulations, you made it out of bed without waking up your partner!
 
-## Safeguards##
+## But what if?..##
 
 Of course, there are some things that could go wrong in the above plan, depending on what the tracker apps support.
 
 | Problem                                                      | Solution                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| You turn off the tracker app when you wake up -- take that tracker! | The phone acts as an emergency backup. If the tracker app stops pinging it at the appropriate interval, it starts blaring an alarm (back to partner angry factor, but only in emergencies). |
+| You turn off the tracker app when you wake up. Take that tracker! | The phone acts as an emergency backup. If the tracker app stops pinging it at the appropriate interval, it starts blaring an alarm (back to partner angry factor, but only in emergencies). |
 | You forgot to charge your tracker and it dies.               | Same solution as above! The phone is the backup!             |
 | The phone dies overnight, restarts, etc.                     | The tracker is a backup for the phone, as well! You'll still get your alarm, but not the safeguard of the phone. Hopefully this won't happen often! |
 
 # Learning Experience#
 
+Turns out I don't know how to do mobile development and I don't know how to do device development. But that sounds less like a problem and more like an opportunity! Here's the learning plan, as of right now:
+
+- I have a Garmin Vivoactive, which supports the [Garmin Connect IQ Platform](https://developer.garmin.com/connect-iq/). This means learning a new language, called Monkey C, plus getting familiar with implementation on small devices. I also need to sort out some details about how Connect IQ apps work with standard functions. Ideally the device would still record sleep while the alarm app is working.
+- [React Native](https://facebook.github.io/react-native/) seems to be all the rage when it comes to mobile development right now, and it seems sufficient given the mobile app should be fairly simple. Plus, I already know web development quite well. I will most likely be implementing it with [TypeScript](https://www.typescriptlang.org/), though, since I love me some types! I'm guessing I'll need to make use of [Native Modules](https://facebook.github.io/react-native/docs/native-modules-ios.html) to implement the Connect IQ APIs. The likely outcome will be a separate general use library for that integration.
+
+
+
+So that's it! The next project in line and something that, unlike my "standing desk automation" app, I can likely actually achieve without devoting excessive amounts of time (that I do not have with a 7 month old at home).
