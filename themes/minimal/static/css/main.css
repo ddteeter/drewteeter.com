@@ -102,6 +102,7 @@ img {
 td, th {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
+    padding-right: 5px !important;
     border-bottom: 1px dashed var(--accent);
     text-align: left;
 }
