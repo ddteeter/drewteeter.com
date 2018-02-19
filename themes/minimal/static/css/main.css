@@ -21,6 +21,11 @@ main br + div {
     text-align: left;
 }
 
+/*temporary hack to left align content*/
+main br + div {
+    text-align: left;
+}
+
 /*footer*/
 
 .copyright {
