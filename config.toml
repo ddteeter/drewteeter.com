@@ -2,6 +2,7 @@ baseURL = "https://www.drewteeter.com/"
 languageCode = "en-us"
 title = "Drew Teeter"
 theme = "minimal"
+googleAnalytics = "UA-114499601-1"
 
 [params]
     author = "Drew Teeter"
